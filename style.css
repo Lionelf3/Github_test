@@ -1,12 +1,28 @@
 body {
     font-size: 15pt;
 } 
-.practicando{color: red;
-  background-color: black;
+h1{
+ color:blue;
+ text-align:center;
+}
+h2{
+ color:orange;
+ text-decoration:underline;
+}
+p
+{
+ color:black;
 }
 
-.cebolla{color: purple;
-  
-   background-color:silver;
-   
+.practicando{
+ color:red;
+background-color:black;
 }
+.cebolla{
+ color:black;
+ background-color:silver;
+ text-decoration :underline;
+ letter-spacing :3px;
+
+ 
+ }
