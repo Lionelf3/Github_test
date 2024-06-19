@@ -22,7 +22,97 @@ background-color:black;
  color:black;
  background-color:silver;
  text-decoration :underline;
- letter-spacing :3px;
+ letter-spacing :3px;}
 
- 
+body{
+ background-color:beige;
+}
+
+h2{
+ margin:20px,30px,10px,7px;
+}
+
+
+.feo{
+ margin-top:20px;
  }
+ h3{
+ text-align:center;
+}
+
+ .Not{
+   margin-left: 0px;
+   text-decoration: underline;
+   
+ }
+
+.CambiosL{
+  max-width:1000px;
+ margin: 0 auto;
+ border: 2px solid;
+ overflow: scroll;
+ background-color: silver;
+ 
+}
+div{
+  
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    fixed
+}
+
+
+.dos{
+    position: relative;
+    top: 0 px;
+    left: 0px;
+    color: black;
+    background-color: red;
+    fixed
+}
+.tres{
+  position:relative;
+  top: 0px;
+  left:0px;
+  color: beige;
+  background-color: beige;
+}
+
+.contenedor{
+    border: 4px solid orangered;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: 
+}
+
+.caja{
+    width: 90px;
+    height: 150px;
+    margin: 20px;
+}
+
+.A{
+    background-color:#ffa500;
+}
+
+.B{
+    background-color:#ff6600;
+}
+
+.C{
+    background-color:#ff4800;
+}
+
+@media(max-width: 768px;) {.contenedor{display: block;
+  max-width: 300px;
+}
+.caja{margin: 0 auto
+margin-top:20px;
+}
+                          }
